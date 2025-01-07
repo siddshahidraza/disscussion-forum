@@ -1,0 +1,119 @@
+/* General Body Styling */
+body {
+    background-color: #FFFFFF;  /* White background */
+    color: #000000;  /* Black text for readability */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+h1, h2, h3 {
+    color: #970747;  /* Dark Pink for headers */
+    font-weight: bold;
+}
+
+/* Navigation Bar and Buttons */
+button, .stButton>button {
+    background-color: #970747;  /* Dark Pink for buttons */
+    color: #FFFFFF;  /* White text on dark pink */
+    border-radius: 8px;
+    border: 1px solid #8b0039;  /* Slightly darker pink border */
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #8b0039;  /* Darker pink hover effect */
+}
+
+/* Feedback Section */
+.feedback-container {
+    margin: 20px;
+}
+
+.feedback-header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feedback-content {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.strengths {
+    color: #4CAF50;  /* Green for strengths */
+}
+
+.areas-improvement {
+    color: #FF9800;  /* Orange for areas of improvement */
+}
+
+.actionable-suggestions {
+    color: #2196F3;  /* Blue for actionable suggestions */
+}
+
+/* Feedback Paragraph Styling */
+.feedback-paragraph {
+    color: #34495E;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #ECF0F1;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: justify;  /* Justifies the text */
+}
+
+.feedback-paragraph p {
+    text-indent: 20px;  /* Adds an indentation to the first line */
+}
+
+.feedback-paragraph b {
+    font-weight: bold;
+    color: #16A085;
+}
+
+.feedback-paragraph i {
+    font-style: italic;
+    color: #7F8C8D;
+}
+
+/* Additional styling for feedback section */
+.feedback-selected {
+    border: 2px solid #970747; /* Highlight selected feedback with Dark Pink */
+    box-shadow: 0 0 10px rgba(151, 7, 71, 0.5); /* Glow effect */
+}
+
+/* Formatting for the topic and feedback sections */
+.topic-container {
+    margin-top: 20px;
+}
+
+.feedback-section {
+    display: flex;
+    gap: 20px;
+}
+
+.feedback-option-1, .feedback-option-2 {
+    flex: 1;
+    background-color: #fce4f8;
+    border: 2px solid #f07b7b;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-option-1:hover, .feedback-option-2:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.indent {
+    margin-left: 20px;
+    font-style: italic;
+    color: #7F8C8D;
+}
