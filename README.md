@@ -42,3 +42,22 @@ Follow these steps to set up and run the application:
    ```bash
    git clone https://github.com/your-repo/discussion-forum.git
    cd discussion-forum
+
+2. **Install Python Dependencies**: Ensure you have all required Python libraries installed using the requirements.txt file:
+   pip install -r requirements.txt
+   
+4. **Install Ollama:**
+   Download and install Ollama from Ollama's official website.
+   https://ollama.com/
+Follow the installation instructions for your operating system.
+
+6. **Pull the LLaMA 3.2 Model:**
+   Use Ollama to download the LLaMA 3.2 model
+   ollama pull llama3.2
+
+7. **Add the style.css File:**
+   If you wish to customize the application’s appearance, create or edit the style.css file in the same directory as app.py. You can define your own styles here.
+
+8. **Run the Application:**
+   Start the Streamlit application using the command
+   streamlit run app.py
